@@ -6,6 +6,113 @@
 html{
     font-family: 'Roboto', sans-serif;
 }
-.menu{
+.menu,
+.menu-list{
     display: flex;
+    justify-content:space-around;
 }
+.menu-list-item{
+    display: inline-block;
+    margin:0 20px;
+}
+.menu-list-item a{
+    text-decoration: none;
+    color: black;
+}
+.menu-list-item a:hover,
+.menu-list-item a:active,
+.menu-list-item a:focus{
+    padding-bottom:2px;
+    border-bottom:  2px solid #706AE2;
+}
+.jumbo{
+    background-image:url(../css/img/hero-pe-8.webp);
+    background-repeat: no-repeat;
+    height:400px;
+    background-size: cover;
+    background-position:right;
+    display: flex;
+    justify-content: center;
+}
+.jumbo-content{
+    width: 900px;
+    margin:0 auto;
+}
+.jumbo-content h1{
+    margin-bottom:10px;
+}
+.jumbo-content h2{
+    margin-bottom: 25px;
+}
+.jumbo-content ul{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    list-style-type: ">";
+}
+.btn,
+.sign-in{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 60px;
+    background-color: transparent;
+    font-weight: bold;
+}
+.btn:hover,
+.btn:active,
+.btn:focus{
+  color: white;
+  cursor: pointer;
+}
+.sign-in{
+    width:10%;
+}   
+
+.sign-in:hover,
+.sign-in:active,
+.sign-in:focus{
+    background-color: #0067CB; 
+    color:white;
+    cursor: pointer;
+}
+.download{
+    padding: 7px 15px;
+    border:2px solid black;
+    margin-left: 47px;
+}
+.download:hover,
+.download:active,
+.download:focus{
+    background-color: black;
+    color: white;
+}
+.main{
+    background-color:#f0eeee;
+    margin:0 auto;
+    list-style-type: none;
+    padding: 30px 0;
+}
+.main-menu{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-weight: bold;
+    width: 95%;
+    text-align: center;
+}
+.main-menu-item{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    margin:0 40px;
+
+}
+.main-menu-item a {
+    text-decoration: none;
+    color: black;
+    }
+ .main-menu-item a:hover,
+ .main-menu-item a:active,
+ .main-menu-item a:focus{
+     background-color:  hsl(0, 100%, 99%);
+    padding: 25px 35px;
+ }
