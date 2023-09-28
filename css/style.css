@@ -99,20 +99,20 @@ html{
     width: 95%;
     text-align: center;
 }
-.main-menu-item{
+.main-menu-item {
+    display: flex;
+    justify-content:space-around;
     text-decoration: none;
-    display: inline-block;
+    margin:0 50px;
+}
+.main-menu-item a{
+    text-decoration: none;
     color: black;
-    margin:0 40px;
+    padding: 25px 35px;
 
 }
-.main-menu-item a {
-    text-decoration: none;
-    color: black;
-    }
  .main-menu-item a:hover,
  .main-menu-item a:active,
  .main-menu-item a:focus{
      background-color:  hsl(0, 100%, 99%);
-    padding: 25px 35px;
  }
