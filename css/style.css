@@ -9,11 +9,11 @@ html{
 .menu,
 .menu-list{
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 .menu-list-item{
     display: inline-block;
-    margin:0 20px;
+    margin: 10px 40px;
 }
 .menu-list-item a{
     text-decoration: none;
@@ -36,7 +36,7 @@ html{
 }
 .jumbo-content{
     width: 900px;
-    margin:0 auto;
+    margin-left: 15%;
 }
 .jumbo-content h1{
     margin-bottom:10px;
